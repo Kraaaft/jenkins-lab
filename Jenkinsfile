@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('stage1') {
       steps {
-        echo "This is build number $BUILD_NUMER of demo $DEMO"
+        echo "This is build number $BUILD_NUMBER of demo $DEMO"
         sh '''
           echo "Using a multi-line shell step"
           chmod +x test.sh
